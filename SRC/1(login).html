@@ -1,0 +1,109 @@
+﻿<!doctype html>
+<html>
+<head>
+    <!-- Title -->
+    <title>E Learning</title>
+    <style>
+        body {
+            width: 1100px;
+            max-width: 95%;
+            margin: auto;
+            background: url(background.jpeg);
+            background-repeat: no-repeat;
+            background-size: 1400px 700px;
+        }
+
+        .topleft {
+            position: absolute;
+            top: 8px;
+            left: 16px;
+        }
+
+        h1 {
+            float: left;
+            color: rgb(254,6,145);
+            margin: 0;
+        }
+
+        header h2 {
+            text-align: center;
+            color: rgb(254,6,145);
+        }
+
+        form {
+            background: pink;
+            align = center;
+            width: 400px;
+            padding: 20px;
+            margin: 1%;
+        }
+
+        footer {
+            text-align: center;
+            background: white;
+            clear: left;
+            padding: 0.5px;
+        }
+
+        #page_nav {
+            background: black;
+        }
+
+            #page_nav ul {
+                list-style-type: none;
+            }
+
+            #page_nav a {
+                color: white;
+            }
+
+            #page_nav li {
+                display: inline;
+                padding: 10px;
+            }
+
+        img {
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- Logo -->
+    <div class="topleft">
+        <a>
+            <img src="logo.jpg" width="70" height="70">
+        </a>
+    </div>
+    <header>
+        <h2>
+            E LEARNING
+        </h2>
+    </header>
+
+    <nav id="page_nav">
+        <ul>
+            <li><a href="__home_page.html">HOME</a></li>
+            <li><a href="_about_us.html">ABOUT US</a></li>
+            <li><a href="_contact_us.html">CONTACT US</a></li>
+        </ul>
+
+    </nav>
+
+    <form>
+        <lable for="abc"> USERNAME:</lable>
+        <input type="text" id="abc" required placeholder="username" title="enter the name">
+
+        <br><br><lable for="xyz">PASSWORD:</lable>
+        <input type="password" id="xyz" required placeholder="password" title="enter the password">
+        <br>
+        <br>
+        <br>
+        <span class="login-box-options"><input type="checkbox" name="1" value="1"> Remember Me <a href="#" style="margin-left:30px;">Forgot password?</a></span>
+        <br><br><button>LOGIN</button>
+    </form>
+
+    <footer>
+        <p style="font-family: courier; color: tomato;"><b>"eLearning shouldn’t be a casual joy ride on a Sunday afternoon with the cruise control engaged. The sole purpose of eLearning is to teach" </b></p>
+    </footer>
+</body>
+</html>

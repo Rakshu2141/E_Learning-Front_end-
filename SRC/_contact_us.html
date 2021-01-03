@@ -1,0 +1,143 @@
+﻿<!doctype html>
+<html>
+<head>
+    <!-- Title -->
+    <title>E Learning</title>
+    <style>
+        body {
+            width: 1100px;
+            max-width: 95%;
+            margin: auto;
+            background: url(background.jpeg);
+            background-repeat: no-repeat;
+            background-size: 1400px 800px;
+        }
+
+        .topleft {
+            position: absolute;
+            top: 8px;
+            left: 16px;
+        }
+
+        h1 {
+            float: left;
+            color: rgb(254,6,145);
+            margin: 0;
+        }
+
+        header h2 {
+            text-align: center;
+            color: rgb(254,6,145);
+        }
+
+        section {
+            background-color: white;
+            padding: 0.5px 100px;
+        }
+
+        section {
+            background: pink;
+            padding: 0.5px 100px;
+            margin:1%;
+        }
+
+            section h2 {
+                text-align: center;
+                color: rgb(55,17,242);
+            }
+
+            section p {
+                color: rgb(127,11,135);
+            }
+
+        form {
+            background: pink;
+            align = center;
+            width: 400px;
+            padding: 20px;
+            margin: 1%;
+        }
+
+        footer {
+            text-align: center;
+            background: white;
+            clear: left;
+            padding: 0.5px;
+        }
+
+        #page_nav {
+            background: black;
+        }
+
+            #page_nav ul {
+                list-style-type: none;
+            }
+
+            #page_nav a {
+                color: white;
+            }
+
+            #page_nav li {
+                display: inline;
+                padding: 10px;
+            }
+
+        img {
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- Logo -->
+    <div class="topleft">
+        <a>
+            <img src="logo.jpg" width="70" height="70">
+        </a>
+    </div>
+    <header>
+        <h2>
+            E LEARNING
+        </h2>
+    </header>
+
+    <nav id="page_nav">
+        <ul>
+            <li><a href="__home_page.html">HOME</a></li>
+            <li><a href="_about_us.html">ABOUT US</a></li>
+            <li><a href="_contact_us.html">CONTACT US</a></li>
+        </ul>
+
+    </nav>
+    <section>
+        <p>E_mail id : E_learning@gmail.com</p>
+        <p>Contact_number: 123 456 789</p>
+    </section>
+
+    <form>
+        <p><b>Feedback:</b></p>
+
+        <br /><label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+        <br /><br /><label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+        <br /><br /><label for="country">Country</label>
+        <select id="country" name="country">
+            <option value="australia">India</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+        </select>
+
+        <br /><br /><label for="subject">Comments:</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+        <br /><br /><input type="submit" value="Submit">
+
+    </form>
+
+    <footer>
+        <p style="font-family: courier; color: tomato;"><b>"eLearning shouldn’t be a casual joy ride on a Sunday afternoon with the cruise control engaged. The sole purpose of eLearning is to teach" </b></p>
+    </footer>
+</body>
+</html>
